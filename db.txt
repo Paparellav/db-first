@@ -1,0 +1,15 @@
+CARS (usate)
+
+Id - INT - UNSIGNED - PRIMARY KEY - NOTNULL - AUTO-INCREMENT - UNIQUE
+Marca - VARCHAR(32) - NOTNULL
+Modello - VARCHAR(32) - NOTNULL
+Km - INT - NOTNULL
+Versione - VARCHAR(255) - NOTNULL
+Classe emissioni - VARCHAR(8) - NOTNULL
+Alimentazione - VARCHAR (16) - NOTNULL
+Cambio - VARCHAR(12) - NULL
+Immatricolazione(mm/yyyy) - DATE - NOTNULL
+Numero proprietari - TINYINT - NULL
+Tipologia - VARCHAR(16) - NULL
+Numero di porte - TINYINT - NULL
+Posti - TINYINT - NULL
